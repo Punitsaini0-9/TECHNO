@@ -406,7 +406,7 @@ header .dropdown-menu {
   top: 65px;
 }
 .nav-bg-b .custom-nav .nav-list li a.menu-links {
-  color: #fff;
+  color: #050748;
 }
 .main-header.sticky {
   background: #fff;
@@ -8330,6 +8330,7 @@ html body .title-hero p {
 .main-header {
   display: flex;
   align-items: center;
+   background: #ffdadb;
 }
 /**End-Update 2.1**/
 
