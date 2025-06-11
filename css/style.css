@@ -1249,6 +1249,7 @@ a.play-video::after {
   max-width: 50%;
   position: relative;
   z-index: 555;
+  height: 200%;
 }
 .wide-block h4 {
   margin: 20px 0 30px 0;
