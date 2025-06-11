@@ -2643,6 +2643,11 @@ footer.ftshap:before {
   margin: 0 0 0 20px;
   width: calc(100% - 150px);
 }
+
+.s-block-content-large h4{
+  font-size: 20px;
+}
+
 /**Pricing page**/
 .pricing-table {
   position: relative;
