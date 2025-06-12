@@ -3029,7 +3029,14 @@ footer.ftshap:before {
 }
 /**contact page**/
 .banner-6 {
-  background: url(../images/banner/4.jpg);
+  background: url(../images/banner/career.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-7 {
+  background: url(../images/banner/contactus.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
