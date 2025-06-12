@@ -3041,6 +3041,14 @@ footer.ftshap:before {
   background-size: cover;
   background-position: center center;
 }
+
+.banner-1 {
+  background: url(../images/banner/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .contact-location {
   overflow: hidden;
 }
