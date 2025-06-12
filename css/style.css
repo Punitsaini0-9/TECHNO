@@ -9101,3 +9101,104 @@ h2 {
   margin: 40px auto;
   transition: background 0.3s;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        .remote-details {
+            background-color: #f8f9fa;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        .features-section {
+            /* background: #fff; */
+            padding: 60px 20px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            width: 1200px;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+        }
+
+        .section-title .subtitle {
+            color: #ff0036;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1e0c4a;
+        }
+
+        .section-title h2 span {
+            color: #ff0036;
+            text-decoration: underline;
+        }
+
+        .features-grid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 50px;
+        }
+
+        .features-column {
+            flex: 1;
+            min-width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            text-align: left;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .feature-item img {
+            width: 48px;
+            height: 48px;
+            padding: 10px;
+            border-radius: 50%;
+            background: #e6e2e2;
+        }
+
+        .feature-text h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e0c4a;
+            margin: 0 0 5px;
+        }
+
+        .feature-text p {
+            font-size: 14px;
+            color: #555;
+            margin: 0;
+        }
+
+        .features-image {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .features-image img {
+            max-width: 100%;
+            height: auto;
+        }
