@@ -8553,6 +8553,43 @@ label.error {
   padding: 0 50px;
 }
 
+.s-block {
+  display: flex;
+  align-items: center;
+  height: 220px; /* fixed height */
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.s-card-icon {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.s-card-icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.s-block-content h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.s-block-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
 /***/
 .single-blog- img {
   max-width: 70px;
